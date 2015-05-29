@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from rest_framework import status
 
 from api.models import Idea
-from api.v0.serializers import IdeaSerializer
+from serializers import IdeaSerializer
 
 
 class IdeaList(APIView):
