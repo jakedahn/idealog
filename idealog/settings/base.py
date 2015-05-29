@@ -39,7 +39,7 @@ PREREQ_APPS = [
 ]
 
 PROJECT_APPS = [
-    'notebook',
+    'api',
 ]
 
 INSTALLED_APPS = PREREQ_APPS + PROJECT_APPS
