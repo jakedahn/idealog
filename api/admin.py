@@ -1,3 +1,6 @@
 from django.contrib import admin
+from api.models import Idea, Note
 
-# Register your models here.
+
+admin.site.register(Idea)
+admin.site.register(Note)
