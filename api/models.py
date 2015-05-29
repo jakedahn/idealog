@@ -10,5 +10,5 @@ class Idea(models.Model):
 
 class Note(models.Model):
     user = models.ForeignKey(User)
-    idea = models.ForeignKey(Idea)
+    idea = models.ForeignKey(Idea, related_name='notes')
     body = models.TextField(blank=False)
